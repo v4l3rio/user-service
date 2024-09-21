@@ -3,10 +3,15 @@ plugins {
     id("com.gradle.develocity") version "3.18.1"
 }
 
-rootProject.name = "kotlin-template"
+rootProject.name = "user-service"
 
 include(
-    "core",
+    "domain",
+    "application",
+    "storage",
+    "presentation",
+    "grpc",
+    "tests",
 )
 
 develocity {
@@ -25,3 +30,4 @@ gitHooks {
     }
     createHooks(overwriteExisting = true)
 }
+include("domain")
