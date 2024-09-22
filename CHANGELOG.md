@@ -1,3 +1,18 @@
+## [1.1.0](https://github.com/position-pal/user-service/compare/1.0.0...1.1.0) (2024-09-22)
+
+### Features
+
+* **group:** added support for creating and managing groups with protobuf and grpc ([#32](https://github.com/position-pal/user-service/issues/32)) ([b96ee72](https://github.com/position-pal/user-service/commit/b96ee724539efa7b5eb0540d3dd52be4d4f49907))
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.107 ([24613af](https://github.com/position-pal/user-service/commit/24613af45fda4c664d9aba590b75e7b918ea5428))
+* **deps:** update grpc-java monorepo to v1.51.3 ([f3b19cd](https://github.com/position-pal/user-service/commit/f3b19cd0f983f73a5b5d19c20334e7ba008c3779))
+* **deps:** update grpc-java monorepo to v1.68.0 ([21d6bd6](https://github.com/position-pal/user-service/commit/21d6bd69b66a2fbf9650996e75485d545e1da81e))
+* **deps:** update proto to v3.21.12 ([ed8e3bd](https://github.com/position-pal/user-service/commit/ed8e3bd6e84e8df8b18443582973ff636d123f5e))
+* **deps:** update proto to v3.25.5 ([efe9ad3](https://github.com/position-pal/user-service/commit/efe9ad3824053877aa1356ec467b84597d6a147e))
+* **deps:** update proto to v4 ([c8b7f06](https://github.com/position-pal/user-service/commit/c8b7f06ac3e3d068a693190536eeacfe20dc0a14))
+
 ## 1.0.0 (2024-09-21)
 
 ### Features
