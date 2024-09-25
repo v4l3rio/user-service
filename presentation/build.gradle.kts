@@ -1,3 +1,6 @@
+import de.aaschmid.gradle.plugins.cpd.Cpd
+import io.gitlab.arturbosch.detekt.Detekt
+import io.gitlab.arturbosch.detekt.DetektCreateBaselineTask
 import org.gradle.api.tasks.testing.logging.TestExceptionFormat
 import org.gradle.api.tasks.testing.logging.TestLogEvent
 
@@ -14,10 +17,11 @@ dependencies {
     with(libs) {
         implementation(grpc.stub)
         implementation(grpc.protobuf)
-        implementation(protobuf.java)
+        implementation(protobuf.kotlin)
         implementation(javax.annotation.api)
     }
 }
+
 
 tasks.withType<Test>().configureEach {
     testLogging {
@@ -27,9 +31,9 @@ tasks.withType<Test>().configureEach {
     useJUnitPlatform()
 }
 
-tasks.named("cpdKotlinCheck") {
-    dependsOn(tasks.named("generateProto"))
-}
+// tasks.named("cpdKotlinCheck") {
+//     dependsOn(tasks.named("generateProto"))
+// }
 
 protobuf {
     protoc {
@@ -39,11 +43,18 @@ protobuf {
         create("grpc") {
             artifact = rootProject.libs.grpc.generator.java.get().toString()
         }
+        create("grpckt") {
+            artifact = rootProject.libs.grpc.generator.kotlin.get().toString()
+        }
     }
     generateProtoTasks {
         all().forEach { task ->
             task.plugins {
                 create("grpc")
+                create("grpckt")
+            }
+            task.builtins {
+                create("kotlin")
             }
         }
     }
