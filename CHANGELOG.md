@@ -1,3 +1,34 @@
+## [0.2.0](https://github.com/position-pal/user-service/compare/v0.1.0...0.2.0) (2024-10-17)
+
+### Features
+
+* **postgres:** adding repositories for managing users and groups using a postgres db ([#49](https://github.com/position-pal/user-service/issues/49)) ([929299f](https://github.com/position-pal/user-service/commit/929299fd9bd9dbf40197d8e0fd2adfc37101938b))
+
+### Dependency updates
+
+* **deps:** update dependency org.jetbrains.kotlin.jvm to v2.0.21 ([0ac2815](https://github.com/position-pal/user-service/commit/0ac28155c915ee22fe2fadc57fc34c84d3bee31e))
+* **deps:** update dependency org.mockito:mockito-core to v5.14.0 ([fbd7c48](https://github.com/position-pal/user-service/commit/fbd7c48ebd215c4a1c0f825383c4bcd15c641f76))
+* **deps:** update dependency org.mockito:mockito-core to v5.14.1 ([57ec479](https://github.com/position-pal/user-service/commit/57ec4799135c4a6d4edfe1bebecaf78f2ba5d100))
+* **deps:** update dependency org.mockito:mockito-core to v5.14.2 ([97a3681](https://github.com/position-pal/user-service/commit/97a3681e1d8fbd5189ccc1cecc0784fe50924bea))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.108 ([cc24ceb](https://github.com/position-pal/user-service/commit/cc24ceb6232a3d883969b143277266d4b770a931))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.109 ([3322a99](https://github.com/position-pal/user-service/commit/3322a99ff2d361e8c0f843b6b8292baca16b2f5e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.110 ([485cb4f](https://github.com/position-pal/user-service/commit/485cb4fcfffe454ca43d1c8eb23081ddd3f26f94))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.111 ([1cf6956](https://github.com/position-pal/user-service/commit/1cf6956442ee770ffe968b24c9e040baa1da4cdb))
+* **deps:** update node.js to 20.18 ([7f2a080](https://github.com/position-pal/user-service/commit/7f2a080cbf54110f21bc2af90107368a7bc73a68))
+* **deps:** update plugin kotlin-qa to v0.67.3 ([b0276fa](https://github.com/position-pal/user-service/commit/b0276fac01912110b390ace1604126e6d1c1022d))
+* **deps:** update plugin kotlin-qa to v0.68.0 ([922f809](https://github.com/position-pal/user-service/commit/922f8091b87530cd1b175686fe370701e449898f))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.13 ([952df7d](https://github.com/position-pal/user-service/commit/952df7d00c9475dd73f3a375d6c2fd5680dc4805))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout digest to eef6144 ([cb71030](https://github.com/position-pal/user-service/commit/cb7103064556670852afdd2d20b18b2988d44f7d))
+* **deps:** update dependency ubuntu to v24 ([71b3ec7](https://github.com/position-pal/user-service/commit/71b3ec7aa0c2250b47f77e18a8137aa900e9894a))
+* do not execute checks against generated code ([#44](https://github.com/position-pal/user-service/issues/44)) ([80de1b3](https://github.com/position-pal/user-service/commit/80de1b3f8572d45178ef567752f74e8423d25134))
+
+### Refactoring
+
+* **grpc:** switch to kotlin implementation of grpc ([#37](https://github.com/position-pal/user-service/issues/37)) ([03338ee](https://github.com/position-pal/user-service/commit/03338eec6f6ae4da30e1c0390bcf514f4eea5012))
+
 ## [1.1.0](https://github.com/position-pal/user-service/compare/1.0.0...1.1.0) (2024-09-22)
 
 ### Features
