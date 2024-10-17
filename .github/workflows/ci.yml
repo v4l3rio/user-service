@@ -1,35 +1,21 @@
 name: Build, Test and Check
 
 on:
-  push:
-    paths-ignore:
-      - 'README.md'
-      - 'CHANGELOG.md'
-      - 'LICENSE'
-      - '.gitignore'
-      - '.mergify.yml'
-      - 'renovate.json'
-  pull_request:
+  workflow_call:
   workflow_dispatch:
 
 jobs:
-  dispatcher:
-    runs-on: ubuntu-24.04
-    if: >- # Prevents running the workflow twice on PR made by a branch of the same repository
-      github.event_name != 'pull_request'
-      || github.event.pull_request.head.repo.full_name != github.repository
-    steps:
-      - run: 'true'
-
   build:
-    needs:
-      - dispatcher
     strategy:
       matrix:
         os: [ubuntu-22.04, macos-14, windows-2022]
         jvm-version: [ 11, 17, 21 ]
       fail-fast: false
     runs-on: ${{ matrix.os }}
+    env:
+      POSTGRES_USER: ${{ secrets.POSTGRES_USER }}
+      POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
+      POSTGRES_DB: ${{ secrets.POSTGRES_DB }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871 # v4
@@ -40,10 +26,20 @@ jobs:
           java-version: ${{ matrix.jvm-version }}
       - name: Assemble main and test classes
         run: ./gradlew classes testClasses
-      - name: Test
-        run: ./gradlew test
-      - name: Check
-        run: ./gradlew check
+
+      - name: Run tests for storage submodule
+        if: contains(matrix.os, 'ubuntu')
+        run: ./gradlew :storage:test
+
+      - name: Run tests for other submodules
+        run: ./gradlew test -x :storage:test
+
+      - name: Check storage submodule
+        if: contains(matrix.os, 'ubuntu')
+        run: ./gradlew :storage:check
+
+      - name: Check for other submodules
+        run: ./gradlew check -x :storage:check
 
   success:
     needs:
