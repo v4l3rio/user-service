@@ -1,3 +1,21 @@
+## [0.3.0](https://github.com/position-pal/user-service/compare/0.2.0...0.3.0) (2024-10-22)
+
+### Features
+
+* **auth:** implemented authentication with jwt ([#65](https://github.com/position-pal/user-service/issues/65)) ([c1e5c1a](https://github.com/position-pal/user-service/commit/c1e5c1a57eea1923215fbe8cf97c81edb77d33e3))
+
+### Dependency updates
+
+* **deps:** pin postgres docker tag to 578ca5c ([e7fcc26](https://github.com/position-pal/user-service/commit/e7fcc2670d6432100466d3149efa5bbadea33d2f))
+* **deps:** update dependency io.github.cdimascio:dotenv-kotlin to v6.4.2 ([ea5c4e5](https://github.com/position-pal/user-service/commit/ea5c4e5a6645b89f79c357b737135dd6210895d4))
+* **deps:** update dependency io.mockk:mockk to v1.12.8 ([c561403](https://github.com/position-pal/user-service/commit/c561403d387b640d820e435d740580f8d139065b))
+* **deps:** update dependency io.mockk:mockk to v1.13.13 ([02eda35](https://github.com/position-pal/user-service/commit/02eda355f696bcb370f8558833084799581a4dac))
+* **deps:** update dependency org.postgresql:postgresql to v42.7.4 ([af3fd15](https://github.com/position-pal/user-service/commit/af3fd1550ef3505fc6969956198bb66f62d1137b))
+* **deps:** update ktorm to v3.6.0 ([c65bfe7](https://github.com/position-pal/user-service/commit/c65bfe79b4731df4119d36aa71ff981c447bffed))
+* **deps:** update ktorm to v4 ([e54b84c](https://github.com/position-pal/user-service/commit/e54b84cf052664646a791cee9448cbd08ad19c50))
+* **deps:** update postgres docker tag to v14.13 ([45f7009](https://github.com/position-pal/user-service/commit/45f700920655d5ed605851b9cbf9a7812c51e231))
+* **deps:** update postgres docker tag to v17 ([7c96708](https://github.com/position-pal/user-service/commit/7c967087e6304fdda972f6e54ec6d692657a8783))
+
 ## [0.2.0](https://github.com/position-pal/user-service/compare/v0.1.0...0.2.0) (2024-10-17)
 
 ### Features
