@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/position-pal/user-service/compare/1.0.0...1.0.1) (2024-11-25)
+
+### Bug Fixes
+
+* code repetition ([#95](https://github.com/position-pal/user-service/issues/95)) ([78c0926](https://github.com/position-pal/user-service/commit/78c092691f272a42abb7533acd48a79a62a84408))
+
 ## [1.0.0](https://github.com/position-pal/user-service/compare/0.4.0...1.0.0) (2024-11-25)
 
 ### ⚠ BREAKING CHANGES
