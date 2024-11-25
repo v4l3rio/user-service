@@ -1,3 +1,24 @@
+## [1.0.0](https://github.com/position-pal/user-service/compare/0.4.0...1.0.0) (2024-11-25)
+
+### ⚠ BREAKING CHANGES
+
+* added entrypoint for user service startup  (#93)
+
+### Features
+
+* added entrypoint for user service startup  ([#93](https://github.com/position-pal/user-service/issues/93)) ([0c5dc5a](https://github.com/position-pal/user-service/commit/0c5dc5a5dcfe1c9a7ed5d1236c0981da0afc89e7))
+
+### Dependency updates
+
+* **deps:** pin rabbitmq docker tag to 5c3ead8 ([#84](https://github.com/position-pal/user-service/issues/84)) ([bf12d56](https://github.com/position-pal/user-service/commit/bf12d56d6879e4c2128333f032b8407780074cbd))
+* **deps:** update dependency com.rabbitmq:amqp-client to v5.22.0 ([#85](https://github.com/position-pal/user-service/issues/85)) ([d9350d2](https://github.com/position-pal/user-service/commit/d9350d2f150f34247f6f56557f5b54a9ca30b9e6))
+* **deps:** update dependency com.rabbitmq:amqp-client to v5.23.0 ([#88](https://github.com/position-pal/user-service/issues/88)) ([7f3ef84](https://github.com/position-pal/user-service/commit/7f3ef844de1794f3221407d2401df3db393a9a26))
+* **deps:** update plugin com.gradle.develocity to v3.18.2 ([#87](https://github.com/position-pal/user-service/issues/87)) ([a1098ca](https://github.com/position-pal/user-service/commit/a1098cadc7fba7fc6462b10017eb90fe80ce6034))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.15 ([#89](https://github.com/position-pal/user-service/issues/89)) ([ee7e40b](https://github.com/position-pal/user-service/commit/ee7e40bbe6eb6fa909519811fcd1503bba733207))
+* **deps:** update postgres docker tag to v17.2 ([#91](https://github.com/position-pal/user-service/issues/91)) ([f2cbcce](https://github.com/position-pal/user-service/commit/f2cbccec1a8866e82cace18b16c51f2ab55b4885))
+* **deps:** update rabbitmq docker tag to v4 ([#86](https://github.com/position-pal/user-service/issues/86)) ([164d860](https://github.com/position-pal/user-service/commit/164d8603e890e1a8fe55c905ee687ef7f7666199))
+* **deps:** update rabbitmq:4-management docker digest to 14c30a0 ([#90](https://github.com/position-pal/user-service/issues/90)) ([98d409c](https://github.com/position-pal/user-service/commit/98d409c3b5a9302997ba451df563d4b901995f96))
+
 ## [0.4.0](https://github.com/position-pal/user-service/compare/0.3.0...0.4.0) (2024-11-18)
 
 ### Features
