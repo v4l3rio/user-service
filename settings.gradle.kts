@@ -12,6 +12,7 @@ include(
     "presentation",
     "grpc",
     "rabbitmq",
+    "entrypoint",
 )
 
 develocity {
