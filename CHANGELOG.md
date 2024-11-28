@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/position-pal/user-service/compare/1.0.1...1.0.2) (2024-11-28)
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v2.1.0 ([#96](https://github.com/position-pal/user-service/issues/96)) ([d76ab28](https://github.com/position-pal/user-service/commit/d76ab282d33261ac36d472dca4a4a166292d6c74))
+* **deps:** update dependency org.slf4j:slf4j-simple to v2.0.16 ([#94](https://github.com/position-pal/user-service/issues/94)) ([02781eb](https://github.com/position-pal/user-service/commit/02781ebfb71d2626cefcb30fd52fd1a4b9e8b37d))
+
 ## [1.0.1](https://github.com/position-pal/user-service/compare/1.0.0...1.0.1) (2024-11-25)
 
 ### Bug Fixes
