@@ -1,3 +1,28 @@
+## [1.1.1](https://github.com/position-pal/user-service/compare/1.1.0...1.1.1) (2025-01-12)
+
+### Dependency updates
+
+* **deps:** update dependency io.mockk:mockk to v1.13.16 ([#135](https://github.com/position-pal/user-service/issues/135)) ([aa006a8](https://github.com/position-pal/user-service/commit/aa006a8bdee6018ce67220aa61b0714c3db399d3))
+* **deps:** update dependency org.mockito:mockito-core to v5.15.2 ([#126](https://github.com/position-pal/user-service/issues/126)) ([fadee7f](https://github.com/position-pal/user-service/commit/fadee7ff14f0cf106bfdb9175b3be57c69784e9b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.118 ([#132](https://github.com/position-pal/user-service/issues/132)) ([2e89764](https://github.com/position-pal/user-service/commit/2e89764a3db79117f5e38f2507bd17b73453d6e9))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.119 ([#136](https://github.com/position-pal/user-service/issues/136)) ([f9db90b](https://github.com/position-pal/user-service/commit/f9db90bf28af8855f1d89f582cdc89c732e937dd))
+* **deps:** update gradle:8-jdk17 docker digest to e212939 ([#125](https://github.com/position-pal/user-service/issues/125)) ([711cacd](https://github.com/position-pal/user-service/commit/711cacd8b077ab08fa9b79ba0cb444586036ddfd))
+* **deps:** update node.js to 22.13 ([#131](https://github.com/position-pal/user-service/issues/131)) ([725dd47](https://github.com/position-pal/user-service/commit/725dd47c7a94eef1de46199973d5bf805becd77a))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.18 ([#123](https://github.com/position-pal/user-service/issues/123)) ([312ad9a](https://github.com/position-pal/user-service/commit/312ad9a8757943895344e99645fbd796fdc1384f))
+* **deps:** update postgres:17.2-alpine docker digest to 0bcc5bb ([#134](https://github.com/position-pal/user-service/issues/134)) ([0bc4df6](https://github.com/position-pal/user-service/commit/0bc4df6f9217cd24a73c2b40c8a4437d446455f8))
+* **deps:** update postgres:17.2-alpine docker digest to 17143ad ([#130](https://github.com/position-pal/user-service/issues/130)) ([642ee38](https://github.com/position-pal/user-service/commit/642ee38a0ad1b551b85824d188c842bbad1d04fc))
+* **deps:** update postgres:17.2-alpine docker digest to 272a3f9 ([#127](https://github.com/position-pal/user-service/issues/127)) ([1c0d77c](https://github.com/position-pal/user-service/commit/1c0d77c68dea305ee37fa29f3ff176f9ab8d8564))
+* **deps:** update proto to v4.29.3 ([#133](https://github.com/position-pal/user-service/issues/133)) ([607643a](https://github.com/position-pal/user-service/commit/607643aa118ddbeb4cf62584300821a07e88c59e))
+
+### Bug Fixes
+
+* added status code in response and handled keyword bearer ([#137](https://github.com/position-pal/user-service/issues/137)) ([e0cdb26](https://github.com/position-pal/user-service/commit/e0cdb26772703aa56245aca66638873fb2a7a74d))
+
+### Build and continuous integration
+
+* **deps:** update docker/build-push-action digest to b32b51a ([#128](https://github.com/position-pal/user-service/issues/128)) ([604e622](https://github.com/position-pal/user-service/commit/604e62295469a402c21d4d0d3c6fbb0e3f2dce06))
+* **deps:** update docker/setup-qemu-action digest to 53851d1 ([#129](https://github.com/position-pal/user-service/issues/129)) ([c6b7068](https://github.com/position-pal/user-service/commit/c6b7068f132c46ae51651a17c62affa14de812aa))
+
 ## [1.1.0](https://github.com/position-pal/user-service/compare/1.0.2...1.1.0) (2024-12-23)
 
 ### Features
