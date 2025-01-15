@@ -1,3 +1,13 @@
+## [1.1.2](https://github.com/position-pal/user-service/compare/1.1.1...1.1.2) (2025-01-15)
+
+### Bug Fixes
+
+* grpc user password and hashing ([#139](https://github.com/position-pal/user-service/issues/139)) ([e23412e](https://github.com/position-pal/user-service/commit/e23412ebd21416a9b4d8dde4f3711925da00a8ad))
+
+### Build and continuous integration
+
+* **deps:** update docker/build-push-action digest to 67a2d40 ([#138](https://github.com/position-pal/user-service/issues/138)) ([a197b86](https://github.com/position-pal/user-service/commit/a197b86854f9b1d65becfb5029a8c692b165ca68))
+
 ## [1.1.1](https://github.com/position-pal/user-service/compare/1.1.0...1.1.1) (2025-01-12)
 
 ### Dependency updates
