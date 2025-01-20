@@ -1,3 +1,14 @@
+## [1.2.0](https://github.com/position-pal/user-service/compare/1.1.2...1.2.0) (2025-01-20)
+
+### Features
+
+* update ci to support multi platform docker images  ([#143](https://github.com/position-pal/user-service/issues/143)) ([0895cdc](https://github.com/position-pal/user-service/commit/0895cdc1c3438ed6f4d742a3fd41d5d31b1e3349))
+
+### Dependency updates
+
+* **deps:** update dependency org.postgresql:postgresql to v42.7.5 ([#140](https://github.com/position-pal/user-service/issues/140)) ([cac4bf8](https://github.com/position-pal/user-service/commit/cac4bf8171734c5270dc0f881dae932d302f519e))
+* **deps:** update grpc-java monorepo to v1.69.1 ([#141](https://github.com/position-pal/user-service/issues/141)) ([6665c69](https://github.com/position-pal/user-service/commit/6665c69ce2142bcfbfa795fc178843521e0dec89))
+
 ## [1.1.2](https://github.com/position-pal/user-service/compare/1.1.1...1.1.2) (2025-01-15)
 
 ### Bug Fixes
