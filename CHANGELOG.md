@@ -1,3 +1,19 @@
+## [1.2.1](https://github.com/position-pal/user-service/compare/1.2.0...1.2.1) (2025-01-24)
+
+### Dependency updates
+
+* **deps:** update eclipse-temurin:21 docker digest to d59ca49 ([#144](https://github.com/position-pal/user-service/issues/144)) ([84cb1d9](https://github.com/position-pal/user-service/commit/84cb1d9e1c41f52f3998d39e12f09e1bd6d5d38a))
+* **deps:** update grpc-java monorepo to v1.70.0 ([#145](https://github.com/position-pal/user-service/issues/145)) ([6b9cda3](https://github.com/position-pal/user-service/commit/6b9cda31494bb61cb436f55051ed207471780258))
+
+### Bug Fixes
+
+* **rabbitmq:** use durable exchanges and remove un-necessary group_updates queue ([#148](https://github.com/position-pal/user-service/issues/148)) ([b833ceb](https://github.com/position-pal/user-service/commit/b833ceb76dd15cecc5c3529c11ba79d23183688a))
+
+### Build and continuous integration
+
+* **deps:** update dawidd6/action-download-artifact action to v8 ([#146](https://github.com/position-pal/user-service/issues/146)) ([04cf90a](https://github.com/position-pal/user-service/commit/04cf90a133aeee215a1a2160935dd9700adf185c))
+* **deps:** update docker/build-push-action digest to ca877d9 ([#147](https://github.com/position-pal/user-service/issues/147)) ([c224936](https://github.com/position-pal/user-service/commit/c22493669c5fcc920bbd8dd892ce2e262d903897))
+
 ## [1.2.0](https://github.com/position-pal/user-service/compare/1.1.2...1.2.0) (2025-01-20)
 
 ### Features
