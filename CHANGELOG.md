@@ -1,3 +1,14 @@
+## [1.2.2](https://github.com/position-pal/user-service/compare/1.2.1...1.2.2) (2025-01-28)
+
+### Dependency updates
+
+* **core-deps:** update dependency org.jetbrains.kotlin.jvm to v2.1.10 ([#150](https://github.com/position-pal/user-service/issues/150)) ([5f143f6](https://github.com/position-pal/user-service/commit/5f143f633078c7dcf7721339ffc11616f31ab0f7))
+
+### Build and continuous integration
+
+* deploy api using correct folder ([0cc3e9e](https://github.com/position-pal/user-service/commit/0cc3e9ee8d741d0a84dc7525fd1ac9ee25034486))
+* **deps:** update actions/setup-node action to v4.2.0 ([#149](https://github.com/position-pal/user-service/issues/149)) ([cbdc0bd](https://github.com/position-pal/user-service/commit/cbdc0bd77cd796c4e5f07cc0a683e5f69097055f))
+
 ## [1.2.1](https://github.com/position-pal/user-service/compare/1.2.0...1.2.1) (2025-01-24)
 
 ### Dependency updates
