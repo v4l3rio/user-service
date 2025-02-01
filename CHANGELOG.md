@@ -1,3 +1,22 @@
+## [1.2.3](https://github.com/position-pal/user-service/compare/1.2.2...1.2.3) (2025-02-01)
+
+### Dependency updates
+
+* **deps:** update eclipse-temurin:21 docker digest to 5aa48ef ([#156](https://github.com/position-pal/user-service/issues/156)) ([879072f](https://github.com/position-pal/user-service/commit/879072f9a1d480e281783c5309153ce1d941a2b4))
+* **deps:** update plugin com.gradle.develocity to v3.19.1 ([#157](https://github.com/position-pal/user-service/issues/157)) ([aa6de8d](https://github.com/position-pal/user-service/commit/aa6de8de7cfe3aae6aec94352db8fd09a8889240))
+* **deps:** update plugin git-semantic-versioning to v3.1.10 ([535ee81](https://github.com/position-pal/user-service/commit/535ee812808a94dadc25773dabe6b2eddd4cd481))
+* **deps:** update plugin git-semantic-versioning to v4 ([#159](https://github.com/position-pal/user-service/issues/159)) ([a9f74a0](https://github.com/position-pal/user-service/commit/a9f74a0d27a76dfead894a6935166370105d85e8))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.20 ([e93be89](https://github.com/position-pal/user-service/commit/e93be89d59b0e029718fd4585aa1a17c9f357043))
+* **deps:** update rabbitmq:4-management docker digest to f100517 ([#153](https://github.com/position-pal/user-service/issues/153)) ([40ca575](https://github.com/position-pal/user-service/commit/40ca575ed9311c0e41a14210d05a3ce817a47b9a))
+
+### Bug Fixes
+
+* userdata ([#161](https://github.com/position-pal/user-service/issues/161)) ([61e3b98](https://github.com/position-pal/user-service/commit/61e3b9886539371c397ad32d405e54381147c6a1))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java digest to 3a4f6e1 ([#154](https://github.com/position-pal/user-service/issues/154)) ([372f777](https://github.com/position-pal/user-service/commit/372f777e893e1405c26107ba4df8a8fb562d1a06))
+
 ## [1.2.2](https://github.com/position-pal/user-service/compare/1.2.1...1.2.2) (2025-01-28)
 
 ### Dependency updates
