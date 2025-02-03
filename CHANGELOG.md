@@ -1,3 +1,9 @@
+## [1.3.0](https://github.com/position-pal/user-service/compare/1.2.3...1.3.0) (2025-02-03)
+
+### Features
+
+* auth improvement ([#162](https://github.com/position-pal/user-service/issues/162)) ([fc1c445](https://github.com/position-pal/user-service/commit/fc1c445578b4b7e8135a230f0c9ab80d3a00eada))
+
 ## [1.2.3](https://github.com/position-pal/user-service/compare/1.2.2...1.2.3) (2025-02-01)
 
 ### Dependency updates
