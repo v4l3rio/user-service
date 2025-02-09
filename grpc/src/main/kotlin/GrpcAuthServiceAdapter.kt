@@ -26,16 +26,14 @@ class GrpcAuthServiceAdapter(private val authService: AuthService, private val g
      */
     override suspend fun authenticate(request: AuthenticateRequest): AuthenticateResponse {
         val token = authService.authenticate(request.email, request.password)
-        return AuthenticateResponse.newBuilder()
-            .setToken(token)
-            .setStatus(
-                if (token != null) {
-                    createStatus(StatusCode.OK, "OK")
-                } else {
-                    createStatus(StatusCode.WRONG_CREDENTIALS, "Unauthorized")
-                },
-            )
-            .build()
+        val responseBuilder = AuthenticateResponse.newBuilder()
+        if (token != null) {
+            responseBuilder.setToken(token)
+            responseBuilder.setStatus(createStatus(StatusCode.OK, "OK"))
+        } else {
+            responseBuilder.setStatus(createStatus(StatusCode.WRONG_CREDENTIALS, "Unauthorized"))
+        }
+        return responseBuilder.build()
     }
 
     /**
@@ -68,7 +66,8 @@ class GrpcAuthServiceAdapter(private val authService: AuthService, private val g
     override suspend fun authorizeUserToAccessGroup(
         request: AuthorizeUserToAccessGroupRequest,
     ): AuthorizeUserToAccessGroupResponse {
-        val email = authService.getEmailFromToken(request.token).orEmpty()
+        val token = request.token.removePrefix("Bearer ").trim()
+        val email = authService.getEmailFromToken(token).orEmpty()
         groupService.findAllGroupsOfUser(email).forEach {
             if (it.id == request.groupId) {
                 return AuthorizeUserToAccessGroupResponse.newBuilder()
