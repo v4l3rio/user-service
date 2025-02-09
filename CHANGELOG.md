@@ -1,3 +1,30 @@
+## [1.3.1](https://github.com/position-pal/user-service/compare/1.3.0...1.3.1) (2025-02-09)
+
+### Dependency updates
+
+* **deps:** update dependency com.rabbitmq:amqp-client to v5.25.0 ([#172](https://github.com/position-pal/user-service/issues/172)) ([b8f5824](https://github.com/position-pal/user-service/commit/b8f5824668a14cc13f4159ba5ad741ae1c821a35))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.120 ([#175](https://github.com/position-pal/user-service/issues/175)) ([7b971a9](https://github.com/position-pal/user-service/commit/7b971a9d9d83bdc20e000b90e39ff055936d0448))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.122 ([#176](https://github.com/position-pal/user-service/issues/176)) ([05e91b5](https://github.com/position-pal/user-service/commit/05e91b5378919b7fada6ad0fc07423aefaaa5ade))
+* **deps:** update eclipse-temurin:21 docker digest to 4e8ddd3 ([#163](https://github.com/position-pal/user-service/issues/163)) ([892b525](https://github.com/position-pal/user-service/commit/892b525c3ace55afea008d87bda8a7e8c6ed7e16))
+* **deps:** update eclipse-temurin:21 docker digest to 4f53cf2 ([#167](https://github.com/position-pal/user-service/issues/167)) ([7436baa](https://github.com/position-pal/user-service/commit/7436baa9e1878e80ff91d9168c5dbcb47feb1c22))
+* **deps:** update eclipse-temurin:21 docker digest to eacf3d6 ([#165](https://github.com/position-pal/user-service/issues/165)) ([14f2f84](https://github.com/position-pal/user-service/commit/14f2f84572821e32558f59177fc020de96f0071f))
+* **deps:** update postgres:17.2-alpine docker digest to 7d65bcb ([#169](https://github.com/position-pal/user-service/issues/169)) ([b8b303c](https://github.com/position-pal/user-service/commit/b8b303c9f238a760277f2de58d8da9c49f8ce462))
+* **deps:** update postgres:17.2-alpine docker digest to 7e5df97 ([#171](https://github.com/position-pal/user-service/issues/171)) ([0d66137](https://github.com/position-pal/user-service/commit/0d66137c1149f9c98c6dd0deda97b4c6176c5624))
+* **deps:** update rabbitmq:4-management docker digest to 1848f46 ([#166](https://github.com/position-pal/user-service/issues/166)) ([8f20ffb](https://github.com/position-pal/user-service/commit/8f20ffbfdbdd1b36765eaa5b7cbe2b980b3acb38))
+* **deps:** update rabbitmq:4-management docker digest to a5409e7 ([#168](https://github.com/position-pal/user-service/issues/168)) ([6a39a06](https://github.com/position-pal/user-service/commit/6a39a0614813fbc11902e9ed54ad68a41a1da57b))
+* **deps:** update rabbitmq:4-management docker digest to cc4c4f7 ([#164](https://github.com/position-pal/user-service/issues/164)) ([c0b5640](https://github.com/position-pal/user-service/commit/c0b5640a5f1c2660d062630d2d15948ecc0b3bed))
+* **deps:** update rabbitmq:4-management docker digest to f8e04e1 ([#170](https://github.com/position-pal/user-service/issues/170)) ([303dd32](https://github.com/position-pal/user-service/commit/303dd32bb29059da4f4104d43a407a48e98292a2))
+
+### Bug Fixes
+
+* ci shared kernel credentials ([0f2be4d](https://github.com/position-pal/user-service/commit/0f2be4df8b1917975976e6e704e73fd5351c63ad))
+* fix auth response ([c5e3ae5](https://github.com/position-pal/user-service/commit/c5e3ae534503bb6d1720338d8eb9a6ec8c83a847))
+
+### Build and continuous integration
+
+* **deps:** update docker/setup-buildx-action digest to f7ce87c ([#173](https://github.com/position-pal/user-service/issues/173)) ([6bb8091](https://github.com/position-pal/user-service/commit/6bb8091057e0ff9f76b76d19e2e752a56efac0f0))
+* **deps:** update docker/setup-qemu-action digest to 4574d27 ([#174](https://github.com/position-pal/user-service/issues/174)) ([84627a2](https://github.com/position-pal/user-service/commit/84627a28b7f4e68bff912529b3f37c2e9f2899f0))
+
 ## [1.3.0](https://github.com/position-pal/user-service/compare/1.2.3...1.3.0) (2025-02-03)
 
 ### Features
