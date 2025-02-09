@@ -24,7 +24,7 @@ class PostgresAuthRepository(private val db: Database = DBConnection.getDatabase
         val user = db.users
             .filter { it.email eq email }
             .firstOrNull()
-        return if(user != null) {
+        return if (user != null) {
             BCrypt.checkpw(password, user.password)
         } else {
             false
