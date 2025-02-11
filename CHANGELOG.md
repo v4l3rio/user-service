@@ -1,3 +1,13 @@
+## [1.3.2](https://github.com/position-pal/user-service/compare/1.3.1...1.3.2) (2025-02-11)
+
+### Dependency updates
+
+* **deps:** update rabbitmq:4-management docker digest to 697da87 ([#177](https://github.com/position-pal/user-service/issues/177)) ([19ba623](https://github.com/position-pal/user-service/commit/19ba62397d8864782cf2de12e99c070ad179f5bd))
+
+### Bug Fixes
+
+* send members on group creation ([cd65851](https://github.com/position-pal/user-service/commit/cd65851854b17ebfa98c70124492cf5f91adfb27))
+
 ## [1.3.1](https://github.com/position-pal/user-service/compare/1.3.0...1.3.1) (2025-02-09)
 
 ### Dependency updates
