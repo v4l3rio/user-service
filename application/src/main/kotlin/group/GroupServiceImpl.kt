@@ -35,6 +35,20 @@ class GroupServiceImpl(
             ),
         )
         messageAdapter.postEvent(EventType.GROUP_CREATED, event)
+        group.members.forEach {
+            messageAdapter.postEvent(
+                EventType.MEMBER_ADDED,
+                AddedMemberToGroup.create(
+                    { group.id },
+                    io.github.positionpal.entities.User.create(
+                        { it.id },
+                        it.name,
+                        it.surname,
+                        it.email,
+                    ),
+                ),
+            )
+        }
         return groupRepository.save(group)
     }
 
