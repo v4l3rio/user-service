@@ -1,3 +1,18 @@
+## [1.3.3](https://github.com/position-pal/user-service/compare/1.3.2...1.3.3) (2025-02-13)
+
+### Dependency updates
+
+* **deps:** update eclipse-temurin:21 docker digest to 0b31d93 ([#182](https://github.com/position-pal/user-service/issues/182)) ([d5caf1e](https://github.com/position-pal/user-service/commit/d5caf1e90cd652b5dce152360dc4d257f7eae19a))
+* **deps:** update eclipse-temurin:21 docker digest to 99c7f17 ([#180](https://github.com/position-pal/user-service/issues/180)) ([2e3bc5e](https://github.com/position-pal/user-service/commit/2e3bc5eff76d5ae86a12949e0689f241270de319))
+* **deps:** update ktor monorepo to v3.1.0 ([#178](https://github.com/position-pal/user-service/issues/178)) ([0f85640](https://github.com/position-pal/user-service/commit/0f85640f988859ee6cfb0777e42874d8cbfa2d54))
+* **deps:** update rabbitmq:4-management docker digest to 6d1ded7 ([#179](https://github.com/position-pal/user-service/issues/179)) ([c5afb20](https://github.com/position-pal/user-service/commit/c5afb20f96506a40f1f12a7a3dbc62591ad47f2e))
+* **deps:** update rabbitmq:4-management docker digest to c2f5153 ([#181](https://github.com/position-pal/user-service/issues/181)) ([1669fba](https://github.com/position-pal/user-service/commit/1669fba81be6c36929d54d06ee2b9a1d699fec75))
+
+### Bug Fixes
+
+* groupId in rabbitmq createGroup ([15baa78](https://github.com/position-pal/user-service/commit/15baa7811c5654a7beb7adc928c2af0da5a92269))
+* groupId rabbit ([69af957](https://github.com/position-pal/user-service/commit/69af9575453593134f274173a95be03412b338e3))
+
 ## [1.3.2](https://github.com/position-pal/user-service/compare/1.3.1...1.3.2) (2025-02-11)
 
 ### Dependency updates
