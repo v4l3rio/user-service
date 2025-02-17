@@ -1,3 +1,19 @@
+## [1.4.0](https://github.com/position-pal/user-service/compare/1.3.3...1.4.0) (2025-02-17)
+
+### Features
+
+* get user by email ([b6efc5d](https://github.com/position-pal/user-service/commit/b6efc5dfb0257b46098b88faafc645ceb9037f29))
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.123 ([#187](https://github.com/position-pal/user-service/issues/187)) ([adcf37d](https://github.com/position-pal/user-service/commit/adcf37d6136000b71aac1bac1345979b344a486d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.124 ([#188](https://github.com/position-pal/user-service/issues/188)) ([ed3b7a0](https://github.com/position-pal/user-service/commit/ed3b7a04def863ca58945ab9680f9cf22a9e4f49))
+* **deps:** update node.js to 22.14 ([#183](https://github.com/position-pal/user-service/issues/183)) ([46889fa](https://github.com/position-pal/user-service/commit/46889faa24b1502f0717e35acd3f83851aafff35))
+* **deps:** update postgres docker tag to v17.3 ([#184](https://github.com/position-pal/user-service/issues/184)) ([28e483d](https://github.com/position-pal/user-service/commit/28e483ddb3b268b314c19f72e850931f517fd975))
+* **deps:** update postgres:17.3-alpine docker digest to 19d45ec ([#186](https://github.com/position-pal/user-service/issues/186)) ([e490cff](https://github.com/position-pal/user-service/commit/e490cff5157939af3f65d152a90d519f0b1c1004))
+* **deps:** update postgres:17.3-alpine docker digest to 63d02e4 ([#185](https://github.com/position-pal/user-service/issues/185)) ([e9d1eed](https://github.com/position-pal/user-service/commit/e9d1eed89919170c1dc12c0c2c4d0afde06a406f))
+* **deps:** update postgres:17.3-alpine docker digest to 80d3d7d ([#189](https://github.com/position-pal/user-service/issues/189)) ([9b671e1](https://github.com/position-pal/user-service/commit/9b671e1b4e412ab357bea0c4718b1252546cb54f))
+
 ## [1.3.3](https://github.com/position-pal/user-service/compare/1.3.2...1.3.3) (2025-02-13)
 
 ### Dependency updates
