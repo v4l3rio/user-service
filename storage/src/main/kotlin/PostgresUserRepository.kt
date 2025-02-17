@@ -79,4 +79,14 @@ class PostgresUserRepository(private val db: Database = DBConnection.getDatabase
      * @return a list of all user entities
      */
     override fun findAll(): List<User> = db.users.toList()
+
+    /**
+     * Finds a user by their email.
+     *
+     * @param email the email of the user
+     * @return the user entity if found, otherwise null
+     */
+    override fun findByEmail(email: String): User? {
+        return db.users.filter { it.email eq email }.firstOrNull()
+    }
 }

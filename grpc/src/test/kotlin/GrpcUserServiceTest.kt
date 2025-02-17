@@ -61,7 +61,7 @@ class GrpcUserServiceTest : FunSpec({
                 password = "password123",
             )
 
-            coEvery { mockUserService.getUser("123") } returns retrievedUser
+            coEvery { mockUserService.getUser("123") } returns retrievedUser.userData
 
             val request = GetUserRequest.newBuilder().setUserId("123").build()
 

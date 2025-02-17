@@ -33,7 +33,7 @@ class PostgresUserRepositoryTest : FunSpec({
             val user = createTestUser(name = "Jane", email = "email2")
 
             val createdUser = userService.createUser(user).userData
-            val retrievedUser = userService.getUser(createdUser.id)?.userData
+            val retrievedUser = userService.getUser(createdUser.id)
 
             retrievedUser shouldNotBe null
             retrievedUser?.id shouldBe createdUser.id

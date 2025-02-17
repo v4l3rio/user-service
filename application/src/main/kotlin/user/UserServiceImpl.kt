@@ -1,6 +1,7 @@
 package user
 
 import User
+import UserData
 
 /**
  * Implementation of the user.UserService interface.
@@ -21,7 +22,7 @@ class UserServiceImpl(private val userRepository: UserRepository) : UserService 
      * @param userId the ID of the user to retrieve
      * @return the user with the given ID, or null if no user found
      */
-    override fun getUser(userId: String): User? = userRepository.findById(userId)
+    override fun getUser(userId: String): UserData? = userRepository.findById(userId)?.userData
 
     /**
      * Updates an existing user.
@@ -41,4 +42,11 @@ class UserServiceImpl(private val userRepository: UserRepository) : UserService 
      * @return true if the user was deleted, false otherwise
      */
     override fun deleteUser(userId: String): Boolean = userRepository.deleteById(userId)
+
+    /**
+     * Retrieves a user by their email.
+     * @param email the email of the user to retrieve
+     * @return the user with the given email, or null if no user found
+     */
+    override fun getUserByEmail(email: String): UserData? = userRepository.findByEmail(email)?.userData
 }

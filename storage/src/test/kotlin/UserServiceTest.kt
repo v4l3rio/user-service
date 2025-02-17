@@ -44,8 +44,8 @@ class UserServiceTest : FunSpec({
             val retrievedUser = userService.getUser(createdUser.userData.id)
 
             retrievedUser shouldNotBe null
-            retrievedUser?.userData?.id shouldBe createdUser.userData.id
-            retrievedUser?.userData?.name shouldBe "Jane"
+            retrievedUser?.id shouldBe createdUser.userData.id
+            retrievedUser?.name shouldBe "Jane"
         }
 
         test("retrieveUser should return null if the user does not exist") {
@@ -98,6 +98,23 @@ class UserServiceTest : FunSpec({
             val deleteResult = userService.deleteUser(nonExistentUserId)
 
             deleteResult shouldBe false
+        }
+    }
+
+    context("getUserByEmail") {
+        test("getUserByEmail should return the user with the given email") {
+            val user = createTestUser(
+                name = "Alice",
+                surname = "Brown",
+                email = "iansolo@star.it",
+                password = "password",
+            )
+
+            val createdUser = userService.createUser(user)
+
+            val retrievedUser = userService.getUserByEmail(user.userData.email)
+
+            retrievedUser shouldBe createdUser.userData
         }
     }
 })

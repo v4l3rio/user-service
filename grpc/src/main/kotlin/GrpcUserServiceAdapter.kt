@@ -1,5 +1,6 @@
 import Converter.mapFromGrpcUser
 import Converter.mapToGrpcUser
+import Converter.mapToGrpcUserData
 import StatusUtility.createStatus
 import UserOuterClass.CreateUserRequest
 import UserOuterClass.CreateUserResponse
@@ -39,7 +40,7 @@ class GrpcUserServiceAdapter(private val userService: UserService) : UserService
             createStatus(StatusCode.OK, "User retrieved successfully")
         } ?: createStatus(StatusCode.NOT_FOUND, USER_NOT_FOUND_MESSAGE)
         return GetUserResponse.newBuilder()
-            .setUser(user?.let { mapToGrpcUser(it).userData } ?: UserData.getDefaultInstance())
+            .setUser(user?.let { mapToGrpcUserData(it) } ?: UserData.getDefaultInstance())
             .setStatus(status)
             .build()
     }

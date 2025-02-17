@@ -40,4 +40,11 @@ interface UserRepository {
      * @return a list of all users
      */
     fun findAll(): List<User>
+
+    /**
+     * Retrieves a user by their email.
+     * @param email the email of the user to retrieve
+     * @return the user with the given email, or null if no user found
+     */
+    fun findByEmail(email: String): User?
 }

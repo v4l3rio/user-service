@@ -1,6 +1,7 @@
 package user
 
 import User
+import UserData
 
 /**
  * Service interface for managing User entities.
@@ -19,7 +20,7 @@ interface UserService {
      * @param userId the ID of the user to retrieve
      * @return the user with the given ID, or null if no user found
      */
-    fun getUser(userId: String): User?
+    fun getUser(userId: String): UserData?
 
     /**
      * Updates an existing user.
@@ -35,4 +36,11 @@ interface UserService {
      * @return true if the user was deleted, false otherwise
      */
     fun deleteUser(userId: String): Boolean
+
+    /**
+     * Get User by email.
+     * @param email the email of the user to retrieve
+     * @return the user with the given email, or null if no user found
+     */
+    fun getUserByEmail(email: String): UserData?
 }

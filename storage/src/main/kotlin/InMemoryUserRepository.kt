@@ -48,4 +48,14 @@ class InMemoryUserRepository : UserRepository {
      * @return a list of all users
      */
     override fun findAll(): List<User> = users.values.toList()
+
+    /**
+     * Retrieves a user by their email.
+     *
+     * @param email the email of the user to retrieve
+     * @return the user with the given email, or null if no user found
+     */
+    override fun findByEmail(email: String): User? {
+        return users.values.firstOrNull { it.userData.email == email }
+    }
 }
