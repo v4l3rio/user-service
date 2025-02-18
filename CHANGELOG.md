@@ -1,3 +1,9 @@
+## [1.4.1](https://github.com/position-pal/user-service/compare/1.4.0...1.4.1) (2025-02-18)
+
+### Bug Fixes
+
+* add grpc to get user by email ([#190](https://github.com/position-pal/user-service/issues/190)) ([2252066](https://github.com/position-pal/user-service/commit/22520668bc5f60a19915f54cc19f4731a66fa0bb))
+
 ## [1.4.0](https://github.com/position-pal/user-service/compare/1.3.3...1.4.0) (2025-02-17)
 
 ### Features
