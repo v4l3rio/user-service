@@ -1,3 +1,18 @@
+## [1.4.2](https://github.com/position-pal/user-service/compare/1.4.1...1.4.2) (2025-02-20)
+
+### Dependency updates
+
+* **deps:** update plugin com.gradle.develocity to v3.19.2 ([#191](https://github.com/position-pal/user-service/issues/191)) ([f8068c9](https://github.com/position-pal/user-service/commit/f8068c993e0870de3deadf1aeccc9e3523f3b633))
+
+### Bug Fixes
+
+* user update ([#194](https://github.com/position-pal/user-service/issues/194)) ([ddd6e5d](https://github.com/position-pal/user-service/commit/ddd6e5d798da5757f3087f94d9f1da166fd08a8b))
+
+### Build and continuous integration
+
+* **deps:** update docker/build-push-action digest to 0adf995 ([#192](https://github.com/position-pal/user-service/issues/192)) ([42c1da4](https://github.com/position-pal/user-service/commit/42c1da4a8f1a2db872492d47eb42f0bc1d9ddc4a))
+* **deps:** update jamesives/github-pages-deploy-action digest to 6c2d9db ([#193](https://github.com/position-pal/user-service/issues/193)) ([d45f7ab](https://github.com/position-pal/user-service/commit/d45f7ab6a8e91d11c38572430437d50270e47117))
+
 ## [1.4.1](https://github.com/position-pal/user-service/compare/1.4.0...1.4.1) (2025-02-18)
 
 ### Bug Fixes
