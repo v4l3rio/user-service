@@ -1,3 +1,13 @@
+## [2.0.0](https://github.com/position-pal/user-service/compare/1.5.0...2.0.0) (2025-02-26)
+
+### ⚠ BREAKING CHANGES
+
+* **groups:** get groups by id (#202)
+
+### Refactoring
+
+* **groups:** get groups by id ([#202](https://github.com/position-pal/user-service/issues/202)) ([bacf8f3](https://github.com/position-pal/user-service/commit/bacf8f3f2d92cf9bad439720d598f32363773bad))
+
 ## [1.5.0](https://github.com/position-pal/user-service/compare/1.4.2...1.5.0) (2025-02-26)
 
 ### Features
