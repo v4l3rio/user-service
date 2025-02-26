@@ -9,6 +9,8 @@ import GroupOuterClass.DeleteGroupRequest
 import GroupOuterClass.DeleteGroupResponse
 import GroupOuterClass.GetGroupRequest
 import GroupOuterClass.GetGroupResponse
+import GroupOuterClass.GetGroupsRequest
+import GroupOuterClass.GetGroupsResponse
 import GroupOuterClass.Group
 import GroupOuterClass.RemoveMemberRequest
 import GroupOuterClass.RemoveMemberResponse
@@ -95,6 +97,13 @@ class GrpcGroupServiceAdapter(
         return RemoveMemberResponse.newBuilder()
             .setGroup(updatedGroup?.let { mapToGrpcGroup(it) } ?: Group.getDefaultInstance())
             .setStatus(status)
+            .build()
+    }
+
+    override suspend fun getGroupsOfUser(request: GetGroupsRequest): GetGroupsResponse {
+        val groups = groupService.findAllGroupsOfUser(request.email)
+        return GetGroupsResponse.newBuilder()
+            .addAllGroups(groups.map { mapToGrpcGroup(it) })
             .build()
     }
 }
