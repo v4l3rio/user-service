@@ -1,3 +1,22 @@
+## [1.5.0](https://github.com/position-pal/user-service/compare/1.4.2...1.5.0) (2025-02-26)
+
+### Features
+
+* get groups of user by email ([6564f85](https://github.com/position-pal/user-service/commit/6564f858e4b672f606fe804d01efb502574ccf7b))
+
+### Dependency updates
+
+* **deps:** update dependency io.github.cdimascio:dotenv-kotlin to v6.5.1 ([#198](https://github.com/position-pal/user-service/issues/198)) ([479c68e](https://github.com/position-pal/user-service/commit/479c68edd5b98220345c4ff85fd73af91fb4c6f4))
+* **deps:** update dependency org.slf4j:slf4j-simple to v2.0.17 ([#201](https://github.com/position-pal/user-service/issues/201)) ([18dd2ff](https://github.com/position-pal/user-service/commit/18dd2ff258ebe614e5fb14d13b44fa5d8be4d0b8))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.125 ([#195](https://github.com/position-pal/user-service/issues/195)) ([30d8de8](https://github.com/position-pal/user-service/commit/30d8de8ac07896ae5ccdd8ace303ecfa22a6b100))
+* **deps:** update ktor monorepo to v3.1.1 ([#199](https://github.com/position-pal/user-service/issues/199)) ([da411f0](https://github.com/position-pal/user-service/commit/da411f0486f288b9ac08a71dca31f20ab17aafdb))
+* **deps:** update plugin org.danilopianini.gradle-pre-commit-git-hooks to v2.0.21 ([#200](https://github.com/position-pal/user-service/issues/200)) ([08f5cd3](https://github.com/position-pal/user-service/commit/08f5cd3503c44d479865eb26c5378244c4b18c46))
+* **deps:** update postgres docker tag to v17.4 ([#197](https://github.com/position-pal/user-service/issues/197)) ([7ddb6e9](https://github.com/position-pal/user-service/commit/7ddb6e98ac29fdb6b885769dd5b8395a6b9d2b77))
+
+### Build and continuous integration
+
+* **deps:** update actions/upload-artifact action to v4.6.1 ([#196](https://github.com/position-pal/user-service/issues/196)) ([703c9c0](https://github.com/position-pal/user-service/commit/703c9c0115f0ec988f70b6278f029b82015ad864))
+
 ## [1.4.2](https://github.com/position-pal/user-service/compare/1.4.1...1.4.2) (2025-02-20)
 
 ### Dependency updates
