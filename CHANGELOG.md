@@ -1,3 +1,24 @@
+## [2.0.1](https://github.com/position-pal/user-service/compare/2.0.0...2.0.1) (2025-02-28)
+
+### Dependency updates
+
+* **deps:** update dependency io.mockk:mockk to v1.13.17 ([#210](https://github.com/position-pal/user-service/issues/210)) ([7fdad6d](https://github.com/position-pal/user-service/commit/7fdad6d4511e1b3e104a8ff4299178c916f6334a))
+* **deps:** update eclipse-temurin:21 docker digest to b37f705 ([#211](https://github.com/position-pal/user-service/issues/211)) ([2cd1fb9](https://github.com/position-pal/user-service/commit/2cd1fb917f13fec1eb39b33f19f417ecbf9ba33d))
+* **deps:** update rabbitmq:4-management docker digest to 5389746 ([#208](https://github.com/position-pal/user-service/issues/208)) ([8acf1e4](https://github.com/position-pal/user-service/commit/8acf1e4d87f269840a1f07ae1abfc59dc1d4415d))
+* **deps:** update rabbitmq:4-management docker digest to 92f8866 ([#206](https://github.com/position-pal/user-service/issues/206)) ([fa0c971](https://github.com/position-pal/user-service/commit/fa0c971a410e4cab7bff08762acb8585a2193221))
+* **deps:** update rabbitmq:4-management docker digest to d928a16 ([#207](https://github.com/position-pal/user-service/issues/207)) ([58931ad](https://github.com/position-pal/user-service/commit/58931ade079b18d8ee212b045495b031ef0d51ef))
+
+### Bug Fixes
+
+* group update ([658aac2](https://github.com/position-pal/user-service/commit/658aac216faa56b4613a347c2f757f64d09eab9e))
+
+### Build and continuous integration
+
+* **deps:** update dawidd6/action-download-artifact action to v9 ([#209](https://github.com/position-pal/user-service/issues/209)) ([af9ea6d](https://github.com/position-pal/user-service/commit/af9ea6d86bb2d13bb7d6bdf3554c75a9d752a1a1))
+* **deps:** update docker/build-push-action digest to 471d1dc ([#203](https://github.com/position-pal/user-service/issues/203)) ([b40f6de](https://github.com/position-pal/user-service/commit/b40f6de326d23501a5634963be872fc7ab23a673))
+* **deps:** update docker/setup-buildx-action digest to b5ca514 ([#204](https://github.com/position-pal/user-service/issues/204)) ([8fbe5e1](https://github.com/position-pal/user-service/commit/8fbe5e10c9207ac292a076b38edb9a21c6d888c4))
+* **deps:** update docker/setup-qemu-action digest to 5964de0 ([#205](https://github.com/position-pal/user-service/issues/205)) ([1f067e0](https://github.com/position-pal/user-service/commit/1f067e06ad368e75c79f2d54c3ec6e4796889320))
+
 ## [2.0.0](https://github.com/position-pal/user-service/compare/1.5.0...2.0.0) (2025-02-26)
 
 ### ⚠ BREAKING CHANGES
