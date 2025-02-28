@@ -87,13 +87,9 @@ class PostgresGroupRepository(private val db: Database = DBConnection.getDatabas
     override fun update(group: Group): Group? {
         val affectedRows = db.update(Groups) {
             set(it.name, group.name)
-            set(it.createdBy, group.createdBy.id)
             where { it.id eq group.id }
         }
-        // Update memberships
-        db.delete(Memberships) { it.groupId eq group.id }
-        saveMembership(group.id, group.members)
-        return if (affectedRows == 1) group else null
+        return if (affectedRows == 1) findById(group.id) else null
     }
 
     /**
