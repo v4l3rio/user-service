@@ -1,3 +1,20 @@
+## [2.1.0](https://github.com/position-pal/user-service/compare/2.0.1...2.1.0) (2025-03-12)
+
+### Dependency updates
+
+* **api-deps:** update shared.kernel to v1.0.1 ([#220](https://github.com/position-pal/user-service/issues/220)) ([a0809f0](https://github.com/position-pal/user-service/commit/a0809f09176bb4cc7fe3ca47cb45272ae4e05471))
+* **deps:** update dependency org.mockito:mockito-core to v5.16.0 ([#214](https://github.com/position-pal/user-service/issues/214)) ([31b6dbb](https://github.com/position-pal/user-service/commit/31b6dbb4196b7a6189026bcf9abd57b0abbfc3a9))
+* **deps:** update grpc-java monorepo to v1.71.0 ([#215](https://github.com/position-pal/user-service/issues/215)) ([85dfb8e](https://github.com/position-pal/user-service/commit/85dfb8e94d8e0ab75ef78489a005f3aee68a1914))
+* **deps:** update postgres:17.4-alpine docker digest to 7062a21 ([#213](https://github.com/position-pal/user-service/issues/213)) ([dc016ef](https://github.com/position-pal/user-service/commit/dc016ef3c3e3bb0dadbaac35085f7b598b9b3ae9))
+* **deps:** update protobuf monorepo to v4.30.0 ([#216](https://github.com/position-pal/user-service/issues/216)) ([03a5c7c](https://github.com/position-pal/user-service/commit/03a5c7cf467f6be9fae3ba7225f5bafac2ce84e6))
+* **deps:** update rabbitmq:4-management docker digest to 31e2923 ([#218](https://github.com/position-pal/user-service/issues/218)) ([f191262](https://github.com/position-pal/user-service/commit/f191262830efd2b8a42d36c519468e3438d1e414))
+* **deps:** update rabbitmq:4-management docker digest to 3c0bffc ([#217](https://github.com/position-pal/user-service/issues/217)) ([c9c741e](https://github.com/position-pal/user-service/commit/c9c741e294e85486a3a11ba979d7f9e8a2eb1a0b))
+
+### Build and continuous integration
+
+* align github packages envs with corresponding properties and use default GITHUB_TOKEN and github.actor in CI ([#219](https://github.com/position-pal/user-service/issues/219)) ([4df9bcc](https://github.com/position-pal/user-service/commit/4df9bccf48cfd682a060098b9c423b3408ed5acc))
+* **deps:** update docker/setup-qemu-action digest to 2910929 ([#212](https://github.com/position-pal/user-service/issues/212)) ([669949c](https://github.com/position-pal/user-service/commit/669949c44d4c16551613c9054dd97336ae6d1878))
+
 ## [2.0.1](https://github.com/position-pal/user-service/compare/2.0.0...2.0.1) (2025-02-28)
 
 ### Dependency updates
