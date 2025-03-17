@@ -85,6 +85,9 @@ fun main() {
     server.start()
     println("Server started on port $port")
 
+    // IGNORE THIS
+    println("test ci")
+
     // Keep the server running
     server.awaitTermination()
 }
