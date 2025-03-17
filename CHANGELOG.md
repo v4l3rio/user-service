@@ -1,3 +1,21 @@
+## [2.2.0](https://github.com/position-pal/user-service/compare/2.1.0...2.2.0) (2025-03-17)
+
+### Dependency updates
+
+* **api-deps:** update shared.kernel to v1.0.2 ([#222](https://github.com/position-pal/user-service/issues/222)) ([873111b](https://github.com/position-pal/user-service/commit/873111b92f275375710fd9700ade4cf64bdd8645))
+* **deps:** update dependency org.mockito:mockito-core to v5.16.1 ([#225](https://github.com/position-pal/user-service/issues/225)) ([9e17262](https://github.com/position-pal/user-service/commit/9e1726203dbc1c9f07b679d2a48fca001bc23e32))
+* **deps:** update eclipse-temurin:21 docker digest to 6634936 ([#221](https://github.com/position-pal/user-service/issues/221)) ([20c271e](https://github.com/position-pal/user-service/commit/20c271ee57fd9b3ab1156e6ec4a95e3445718e61))
+* **deps:** update protobuf monorepo to v4.30.1 ([#223](https://github.com/position-pal/user-service/issues/223)) ([cd9c533](https://github.com/position-pal/user-service/commit/cd9c5331afe62da7dd00250319aee508399a1721))
+
+### Documentation
+
+* **license:** create LICENSE ([e7ebb14](https://github.com/position-pal/user-service/commit/e7ebb14e69f7ab651433b6040503dc661a21ebc9))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.3.0 ([#226](https://github.com/position-pal/user-service/issues/226)) ([072ed58](https://github.com/position-pal/user-service/commit/072ed5817c15993f2baaf4bc47dae6bd46bd22b1))
+* **deps:** update docker/login-action digest to 74a5d14 ([#224](https://github.com/position-pal/user-service/issues/224)) ([6039f61](https://github.com/position-pal/user-service/commit/6039f612dae9f6ba233a46c8e12f734fec44c295))
+
 ## [2.1.0](https://github.com/position-pal/user-service/compare/2.0.1...2.1.0) (2025-03-12)
 
 ### Dependency updates
